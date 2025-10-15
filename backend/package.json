@@ -5,6 +5,7 @@
   "type": "module",
   "main": "server.js",
   "scripts": {
+    "postinstall": "npm rebuild sqlite3 --build-from-source",
     "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,9 +13,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "better-sqlite3": "^12.4.1",
     "cors": "^2.8.5",
-    "express": "^4.21.1",
-    "sqlite": "^5.1.1",
-    "sqlite3": "^5.1.7"
+    "express": "^4.21.2"
   }
 }

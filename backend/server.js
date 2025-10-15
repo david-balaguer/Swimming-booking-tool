@@ -20,6 +20,9 @@ db.prepare(`
 `).run();
 
 // Route to handle new bookings
+app.get("/", (req, res) => {
+  res.send("✅ Swimming Booking API is running!");
+});
 app.post("/bookings", (req, res) => {
   const { name, email, date, time } = req.body;
 

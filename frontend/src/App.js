@@ -40,8 +40,8 @@ function App() {
 
   return (
     <div style={{ fontFamily: "Arial", margin: "2rem auto", maxWidth: "400px" }}>
-      <h1>🏊‍♂️ Swim with Alex</h1>
-      <p>Private swimming lessons in Leipzig</p>
+      <h1>🏊‍♂️ Swim with David!!</h1>
+      <p>Private swimming lessons in Leipzig for everyone</p>
 
       <form onSubmit={handleSubmit}>
         <label htmlFor="name">Name:</label>
